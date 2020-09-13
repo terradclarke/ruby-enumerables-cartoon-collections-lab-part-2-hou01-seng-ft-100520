@@ -5,8 +5,8 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.each do |element|
-    puts "#{element.capitalize}!"
+  planeteer_calls.each do |planeteer_call|
+    puts "#{planeteer_call.capitalize}!"
   end 
 end
 

@@ -5,9 +5,8 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  oppressed_workers.each do |oppressed_worker|
-   puts "#{oppressed_worker.capitalize} wants to start a union!"
-end #=>
+  planeteer_calls.each do |planeteer_call|
+   puts "#{planeteer_call.capitalize}!"
   end 
 end
 

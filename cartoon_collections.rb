@@ -6,6 +6,7 @@ def square_array(array)
 end
 
 def summon_captain_planet(array)
+  new_array = []
   array.each do |element|
    puts "#{element.capitalize}!"
   end 

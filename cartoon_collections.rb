@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.each do |string|
-   puts "#{string.capitalize}!"
+   puts "#{string.uppercase}!"
   end 
 end
 
